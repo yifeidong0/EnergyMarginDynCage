@@ -1,0 +1,1 @@
+ffmpeg -framerate 4 -i data/ao_est/image%04d.ppm -c:v libx264 -pix_fmt yuv420p output_video.mp4
